@@ -7,6 +7,4 @@ import org.springframework.stereotype.Repository
 @Repository
 interface ProfesorRepository : JpaRepository<Professor, Long> {     // ID renvoyé au format Long
 
-    fun creatProfessor()
-
 }
