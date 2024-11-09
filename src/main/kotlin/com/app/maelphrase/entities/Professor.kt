@@ -12,7 +12,9 @@ data class Professor (
     val first_name: String,        // = SQL varchar
     val last_name: String,
     val email: String,
+    val password: String,
     val activities_id: Long,
     val classroom_id: Long,
     val reg_date: Date
+
 )
